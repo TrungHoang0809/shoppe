@@ -1,0 +1,62 @@
+#btn {
+    position: fixed;
+    float: right;
+    top: 50%;
+    transform: translateY(calc(-50% - 100px));
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 12px 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    min-width: 120px;
+    text-align: center;
+}
+
+.btn + .btn {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn__info {
+    background-color: #3d84e5;
+}
+
+.btn__sucess {
+    background-color: #73bf3a;
+}
+
+.btn__warn {
+    background-color: #ffb702;
+}
+
+.btn__danger {
+    background-color: #fc603b;
+}
+
+.btn__disabled {
+    opacity: 0.5 !important;
+    cursor: default;
+}
+
+.btn--size-s {
+    padding: 4px 28px;
+    
+}
+
+
+.btn--size-l {
+    padding: 16px 56px;
+   
+}
+
+
