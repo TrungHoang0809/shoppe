@@ -600,6 +600,7 @@
     position: absolute;
     top: 42px;
     left: 0;
+    z-index: 10;
 }
 
 .header__search-history-search {
@@ -1390,7 +1391,44 @@
 
 /* ----pagination----- */
 .product__pagination {
-    margin: 0 auto;
+    margin-top: 2.5em;
+    margin-bottom: 3.75em;
+    text-align: center;
+    font-size: 20px;
+}
+
+.product__pagination button {
+    border: none;
+    color: #939393;
+    background-color: transparent;
+    min-width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.product__pagination--left > svg, .product__pagination--right > svg {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+}
+
+.product__pagination--left {
+    margin-right: 15px;
+}
+
+.product__pagination--active {
+    margin: 0 15px;
+    background-color: #ee4d2d !important;
+    color: #fff !important;
+    border-radius: 2px;
+}
+
+.product__pagination--inactive {
+    margin: 0 15px;
+}
+
+.product__pagination--right {
+    margin-left: 15px;
 }
 
 
