@@ -333,23 +333,7 @@ html {
         margin-right: 0;
     }
 
-    .product__info-span-wraper {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .product__info-price-number{
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .product__info-sold {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+    
 }
 
 /* modal */

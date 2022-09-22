@@ -44,13 +44,17 @@
     .mb {
         margin-bottom: 16px;
     }
+
+    .product__pagination {
+        display: none;
+    }
 }
 
 /* responsive tablet */
 @media (min-width: 740px) and (max-width: 1023px){
-    /* .hide-on-tablet {
+    .hide-on-mobile-tablet {
         display: none;
-    } */
+    }
 }
 
 /* responsive mobile */
